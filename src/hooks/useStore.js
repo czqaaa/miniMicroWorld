@@ -2,12 +2,12 @@ import { nanoid } from "nanoid";
 import create from "zustand";
 
 const getLocalStorage = (key) => JSON.parse(window.localStorage.getItem(key));
-console.log(getLocalStorage("cubes"));
+
 const setLocalStorage = (key, value) =>
   window.localStorage.setItem(key, JSON.stringify(value));
 
 export const useStore = create((set) => ({
-  cubes: getLocalStorage("cubes").length
+  cubes: getLocalStorage("cubes")?.length
     ? getLocalStorage("cubes")
     : [
         {
