@@ -12,6 +12,7 @@ export const Ground = () => {
   const [addCube] = useStore((state) => [state.addCube]);
 
   groundTexture.wrapS = groundTexture.wrapT = RepeatWrapping;
+
   groundTexture.repeat.set(100, 100);
   groundTexture.magFilter = NearestFilter;
 

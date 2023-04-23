@@ -14,6 +14,21 @@ grassTexture.magFilter = NearestFilter;
 glassTexture.magFilter = NearestFilter;
 woodTexture.magFilter = NearestFilter;
 
+export const Models = [
+  {
+    title: "Hammer",
+    url: "https://cdn.jsdelivr.net/gh/Sean-Bradley/React-Three-Fiber-Boilerplate@useGLTF/public/models/hammer.glb",
+  },
+  {
+    title: "Drill",
+    url: "https://cdn.jsdelivr.net/gh/Sean-Bradley/React-Three-Fiber-Boilerplate@useGLTF/public/models/drill.glb",
+  },
+  {
+    title: "Tape Measure",
+    url: "https://cdn.jsdelivr.net/gh/Sean-Bradley/React-Three-Fiber-Boilerplate@useGLTF/public/models/tapeMeasure.glb",
+  },
+];
+
 export {
   dirtTexture,
   grassTexture,

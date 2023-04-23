@@ -1,7 +1,6 @@
 import { useBox } from "@react-three/cannon";
 import * as textures from "../images/textures";
 import { useStore } from "../hooks/useStore";
-import log from "ipfs-api/src/log";
 import { useState } from "react";
 export const Cube = (props) => {
   const [isHoverd, setIsHoverd] = useState(false);
